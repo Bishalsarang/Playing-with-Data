@@ -1,5 +1,5 @@
 In this notebook , I'll be experimenting with Nepal Population Data by sex and age group(2011-12).
-This dataset is  taken  from opennepal [here](https://github.com/opennepal/odp-census/blob/master/Population%20by%20sex%20and%20age-group/data.csv). The authenticity of the data is not guaranteed.
+This dataset is  taken  from opennepal [here](https://github.com/opennepal/odp-census/blob/master/Population%20by%20sex%20and%20age-group/data.csv). It has been extracted from [here](https://github.com/opennepal/datasources/blob/master/Census/Volume05Part01.pdf).
 
 ### Data Cleaning
 1. If we observe the csv files provided at opennepal, the values were comma separated but between two columns (Year (AD) and Sex) there was trailing space. The trailing space was removed using single regular expression substitution with regex pattern <b>*(,)\s+(\w)*</b>
